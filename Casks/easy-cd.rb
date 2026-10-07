@@ -6,25 +6,25 @@ cask "easy-cd" do
     end
   end
 
-  version "1.0.1"
+  version "1.0.2"
 
   on_macos do
     on_arm do
-      sha256 "faa681c658b266d060cfa8c883250b9d3518a4ef345add125e6a249fdca1f150"
+      sha256 "62d187afa6814d2d41563be842fa155241fdbe089cf2f09c335b7a66ae65de01"
       url "https://github.com/banozz0/easy-cd/releases/download/v#{version}/easy-cd_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f404ba068e261912fc463d1f4a0fb50bd341d61d15efec4d59edd2d00b126122"
+      sha256 "f0646cac9c0d7c1073bb5432663ceb1d8b007dbd582b86af1f95960afbd6a315"
       url "https://github.com/banozz0/easy-cd/releases/download/v#{version}/easy-cd_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "147ba626fa32896cd656b680edbaed8a8da81399df381d470047ebad8f6574af"
+      sha256 "a906da0bcea299e8d453e58f9d86e68a93ca674f6390496af1d9782b9293d972"
       url "https://github.com/banozz0/easy-cd/releases/download/v#{version}/easy-cd_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "2578b41f07ec740627387f4fc3e048f30a7b33ec9ac3f31c34e1a4f7afadc22b"
+      sha256 "a1d44c0191e2d46df82721b8bf50e90a5a5f9f52689c47a2021911d3d0948fa6"
       url "https://github.com/banozz0/easy-cd/releases/download/v#{version}/easy-cd_#{version}_linux_amd64.tar.gz"
     end
   end
