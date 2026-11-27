@@ -1,6 +1,6 @@
 cask "pilot" do
-  version "1.4.3"
-  sha256 "558ec3f077c54ffb907bbd0cf93623cf59f8c839a7a13d60d6eefaf1fa2dd6ae"
+  version "1.4.4"
+  sha256 "81140dd036089353ff4c7cbf01cc1a5693842ce6216351c632dea2cf15c402f9"
 
   url "https://github.com/banozz0/pilot/releases/download/v#{version}/Pilot-#{version}.dmg"
   name "Pilot"
